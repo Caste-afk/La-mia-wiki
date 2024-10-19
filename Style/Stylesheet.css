@@ -1,5 +1,4 @@
 body{
-
 }
 h1{
     color: rgb(255,255,255);
@@ -8,11 +7,17 @@ h1{
     height: auto;
 }
 div.sinistra{
+    position: fixed;
     float: left;
-    width: 300px;
-    height: 2000px; 
+    width: 150px;
+    height: auto; 
     border: 2px solid black; 
-    width: 100px;
-    background-color: rgb(220,220,220);
+    background-color: #5C3E6B;
+    overflow-y: auto;
 }
-div.main
+div.main{
+    flex: 1;
+    margin-left: 150px;
+    padding: 10px;
+    background-color: gray;
+}
